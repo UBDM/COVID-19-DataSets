@@ -48,7 +48,6 @@ Dates = df[df.Country_Region == country]['Date']
 
 # ## Lockdown dates
 
-# https://www.google.com/url?q=https://www.kaggle.com/jcyzag/covid19-lockdown-dates-by-country&sa=D&source=hangouts&ust=1586208801191000&usg=AFQjCNFZ9u9aN068Y5u0AIXUyx-eBRrP-A
 
 # In[4]:
 
@@ -61,8 +60,6 @@ lowckdown_df = train_df.merge(lockdown, on=['Country_Region', 'Province_State'],
 
 
 # ## Measures
-
-# https://www.kaggle.com/roche-data-science-coalition/uncover#acaps-covid-19-government-measures-dataset.csv
 
 # In[5]:
 
